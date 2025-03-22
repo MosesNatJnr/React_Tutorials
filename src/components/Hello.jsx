@@ -1,7 +1,13 @@
-const name = "Tag";
+const name = "Tiny";
 
-function Hello(){
-    return <h1>Hi ! I'm a Component!{name}</h1>
+function Jello(props) {
+    return (
+
+    <div>
+        <h1>{props.message +" "+ props.name} </h1>
+        <h2>Happy Finding</h2>
+    </div>
+    );
 }
 
-export default Hello
+export default Jello

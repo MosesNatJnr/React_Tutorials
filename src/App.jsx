@@ -1,17 +1,20 @@
-import Hello from "./components/Hello"
-import Add from "./components/Test"
+import Jello from "./components/Hello";
 
 
 
 function App() {
-return <div className="App">
-  
-  <Hello></Hello>
+return (
+
+  <div className="App">
+<Jello message = "Hi there" name = "Tiny" />
+
+
 
 </div>
+);
 }
 
 
 
-export default App
+export default App;
 
