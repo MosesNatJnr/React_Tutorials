@@ -1,10 +1,9 @@
-const name = "Tiny";
 
-function Jello(props) {
+function Jello({name, message, emoji}) {
+
     return (
-
     <div>
-        <h1>{props.message +" "+ props.name} </h1>
+        <h1>{message} {name} {emoji} </h1>
         <h2>Happy Finding</h2>
     </div>
     );
